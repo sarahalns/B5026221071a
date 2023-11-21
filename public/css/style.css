@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
+
+html{
+    height: 250%;
+}
+
+
+head{
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    min-height: 100dvh;
+    background: linear-gradient(0deg, rgb(9, 70, 24), rgb(39, 215, 101));
+    font-family: 'Inter', sans-serif;
+    margin : 0px;
+
+    vertical-align: baseline;
+}
+
+header{
+    width:95%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+    border : 1px solid transparent;
+}
+.share-Button{
+    width:40px ;
+    height:40px ;
+    border-radius: 20px;
+    background-color: white;
+
+
+}
+
+.share-Button svg{
+    margin-left: 12px;
+    margin-top:10px;
+}
+.sarahHeader-img{
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+}
+
+.sarahHeader-img img{
+    height: 100%
+}
+
+.sarahKotak{
+    width: 676.67px;
+    height: 56px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 16px;
+    color: rgb(255,255,255);
+    justify-content: space-between;
+    font-weight: inherit;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    text-align: center;
+    display: flex;
+
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+    text-decoration: none;
+
+    align-items: center;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    word-break: break-word;
+
+
+}
+
+.sarahKotak:hover{
+    background-color: white;
+    color:green;
+    font-size : 16px
+}
+
+.sarahHeader{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+
+.sarahHeader img{
+    margin-top: 60px;
+    width: 96px;
+    border-radius: 50%;
+}
+
+.sarahHeader h1{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.sarahShare{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: transparent ;
+    margin-right: 8px;
+    color: white;
+    margin-right: 25px;
+
+
+}
+
+
+.sarahShare:hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px grey;
+    background-color: rgb(46, 160, 38);
+    hyphens: auto;
+    white-space: normal;
+    background: none;
+    color: green;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    padding-left: 44px;
+    padding-right: 44px;
+
+
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+
+h2{
+margin: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
