@@ -189,4 +189,22 @@
 
       <p class="ml-5">Sarah Auliannisa(5026221071)</p>
     </div>
+    <div class="row">
+        <div class="col-6">
+        <ul>
+            <li><a href="http://localhost/B5026221071/public/5026221071">Clone Linktree</a></li>
+            <li><a href="http://localhost/B5026221071/public/blog">Tugas Blog</a></li>
+            <li><a href="http://localhost/B5026221071/public/hello">Tugas Hello</a></li>
+            <li><a href="http://localhost/B5026221071/public/js1">Tugas Js1</a></li>
+            <li><a href="http://localhost/B5026221071/public/js2">Tugas Js2</a></li>
+            <li><a href="http://localhost/B5026221071/public/layoutweek5">Tugas Layout</a></li>
+            <li><a href="http://localhost/B5026221071/public/link">Tugas Link</a></li>
+            <li><a href="http://localhost/B5026221071/public/responsive">Tugas Responsive</a></li>
+            <li><a href="http://localhost/B5026221071/public/style">Tugas Style</a></li>
+            <li><a href="http://localhost/B5026221071/public/uts">ETS</a></li>
+            <li><a href="http://localhost/B5026221071/public/validasi">Tugas Validasi</a></li>
+          </ul>
+        </div>
+    </div>
+
 </body>

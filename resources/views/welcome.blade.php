@@ -72,7 +72,7 @@
                                     <li><a href="http://localhost/B5026221071/public/link">Tugas Link</a></li>
                                     <li><a href="http://localhost/B5026221071/public/responsive">Tugas Responsive</a></li>
                                     <li><a href="http://localhost/B5026221071/public/style">Tugas Style</a></li>
-                                    <li><a href="http://localhost/B5026221071/public/uts">Tugas UTS</a></li>
+                                    <li><a href="http://localhost/B5026221071/public/uts">ETS</a></li>
                                     <li><a href="http://localhost/B5026221071/public/validasi">Tugas Validasi</a></li>
                                   </ul>
 
