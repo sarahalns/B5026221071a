@@ -95,5 +95,14 @@ class PegawaiController extends Controller
 
 	}
 
+    public function show($id)
+    {
+        //mengambil data pegawai berdasarkan id yang dipilih
+        $pegawai = DB::table('pegawai')->where('pegawai_id',$id)->get();
+
+        // passing data pegawai yang didapat ke view show.blade.php
+		return view('show',['pegawai' => $pegawai]);
+    }
+
 
 }
