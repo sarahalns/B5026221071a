@@ -95,3 +95,15 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 Route::get('/pegawai/show/{id}','App\Http\Controllers\PegawaiController@show');
+
+
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangBelanjaController@index');
+Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangBelanjaController@beli');
+Route::get('/keranjangbelanja/batal/{id}','App\Http\Controllers\KeranjangBelanjaController@batal');
+Route::post('/keranjangbelanja/tambah','App\Http\Controllers\KeranjangBelanjaController@tambah');
+
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@nilai');
+Route::get('/nilaikuliah/nilaitambah','App\Http\Controllers\NilaiController@nilaitambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
+
+
