@@ -34,12 +34,12 @@
                 <input type="number" class="form-control" id="SKS" name="SKS">
             </div>
         </div>
-{{--
+
         <div class="form-group row">
-            <div class="col-sm-9 offset-sm-3"> --}}
+            <div class="col-sm-9 offset-sm-3">
                 <input type="submit" class="btn btn-primary" value="Simpan Data">
-            {{-- </div>
-        </div> --}}
+            </div>
+        </div>
     </form>
 
 
