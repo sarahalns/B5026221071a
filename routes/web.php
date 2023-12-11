@@ -96,14 +96,23 @@ Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 Route::get('/pegawai/show/{id}','App\Http\Controllers\PegawaiController@show');
 
-
+//route latihan soal keranjangbelanja
 Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangBelanjaController@index');
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangBelanjaController@beli');
 Route::get('/keranjangbelanja/batal/{id}','App\Http\Controllers\KeranjangBelanjaController@batal');
 Route::post('/keranjangbelanja/tambah','App\Http\Controllers\KeranjangBelanjaController@tambah');
 
+//route nilaikuliah
 Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@nilai');
 Route::get('/nilaikuliah/nilaitambah','App\Http\Controllers\NilaiController@nilaitambah');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
 
-
+//Route tugas pra EAS(lipstick)
+Route::get('/lipstick','App\Http\Controllers\LipstickController@index');
+Route::get('/lipstick/tambah','App\Http\Controllers\LipstickController@tambah');
+Route::post('/lipstick/store','App\Http\Controllers\LipstickController@store');
+Route::get('/lipstick/edit/{id}','App\Http\Controllers\LipstickController@edit1');
+Route::post('/lipstick/update','App\Http\Controllers\LipstickController@update');
+Route::get('/lipstick/hapus/{id}','App\Http\Controllers\LipstickController@hapus');
+Route::get('/lipstick/cari','App\Http\Controllers\LipstickController@cari');
+Route::get('/lipstick/view/{id}','App\Http\Controllers\LipstickController@view1');

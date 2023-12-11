@@ -30,12 +30,16 @@
 		<div class="form-group row">
             <label for="Harga" class="col-sm-2 col-form-label">Harga Per Item</label>
             <div class="col-xs-9">
-            <input type="text" class="form-control" id="Harga" name="Harga">
+            <input type="text" class="form-control" id="Harga" name="Harga" placeholder="Masukkan Harga Per Item">
             </div>
         </div>
 
 
-		<input type="submit" value="Masukkan Keranjang">
+		<div class="form-group row">
+            <div class="col-sm-9 offset-xs-3">
+                <input type="submit" class="btn btn-primary" value="Masukkan Keranjang">
+            </div>
+        </div>
 	</form>
 
 

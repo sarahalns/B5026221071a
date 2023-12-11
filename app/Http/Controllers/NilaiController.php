@@ -30,6 +30,7 @@ public function nilai()
 	{
 		// insert data ke table pegawai
 		DB::table('nilaikuliah')->insert([
+
 			'NRP' => $request->NRP,
 			'NilaiAngka' => $request->NilaiAngka,
 			'SKS' => $request->SKS
