@@ -116,3 +116,9 @@ Route::post('/lipstick/update','App\Http\Controllers\LipstickController@update')
 Route::get('/lipstick/hapus/{id}','App\Http\Controllers\LipstickController@hapus');
 Route::get('/lipstick/cari','App\Http\Controllers\LipstickController@cari');
 Route::get('/lipstick/view/{id}','App\Http\Controllers\LipstickController@view1');
+
+//Route EAS Karyawan
+Route::get('/karyawan','App\Http\Controllers\KaryawanController@index2');
+Route::get('/karyawan/tambah','App\Http\Controllers\KaryawanController@tambah1');
+Route::post('/karyawan/store','App\Http\Controllers\KaryawanController@store');
+Route::get('/karyawan/hapus/{id}','App\Http\Controllers\KaryawanController@hapus');
